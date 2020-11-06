@@ -1,4 +1,4 @@
-h1 {text-align: center;padding: 10px;}
+h1 {text-align: center;padding: 10px;border-bottom: 2px solid chocolate}
 #timer {
   display: block;
   margin-top: 10px;
