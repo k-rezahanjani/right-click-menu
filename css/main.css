@@ -1,0 +1,45 @@
+h1 {text-align: center;padding: 10px;}
+#timer {
+  display: block;
+  margin-top: 10px;
+  position: absolute;
+  top: 0px;
+}
+
+#left-side {
+  display: inline-block;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+#unOrder {
+  margin: 10px;
+}
+#myContextMenu
+{
+  display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 999;
+  box-shadow: 5px 5px 5px gray;
+  width: 200px;
+  height: 150px;
+  border: 1px solid gray;
+  background-color: rgb(234,231,245);
+  padding: 0px;
+}
+#myContextMenu li
+{
+  height: 30px;
+  border-bottom: 1px solid silver;
+  padding-top: 20px;
+  padding-left:15px;
+}
+#myContextMenu li:hover
+{
+  background-color: chocolate;
+  cursor: pointer;
+}
+#myContextMenu li:last-child
+{
+  border: none !important;
+}

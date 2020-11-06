@@ -1,0 +1,43 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta charset="UTF-8">
+
+  <title>
+    Sample Sample | نمونه نمونه
+  </title>
+</head>
+
+
+<body oncontextmenu="showMenu(event)" onclick="hideMenu()" onkeydown="openShortKey(event)">
+
+<ul id="myContextMenu">
+  <li onclick="window.open()">Open <u>N</u>ew Window</li>
+  <li onclick="myPrint()"><u>P</u>rint</li>
+  <li onclick="window.close()"><u>C</u>lose</li>
+</ul>
+
+<h1>Save your name into Array</h1>
+
+<aside id="left-side">
+  <label>
+    Enter your message :
+    <input type="text" name="text box" placeholder="Enter your name..." id="txtBox">
+    <button type="submit" id="saveBtn" onclick="storeInArray()">Send</button>
+  </label>
+</aside>
+
+<aside id="timer"></aside>
+
+<div>
+  <p>Your messages here :</p>
+  <ul id="unOrder"></ul>
+</div>
+
+<p id="parag"></p>
+
+<script src="js/main.js"></script>
+</body>
+</html>
